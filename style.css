@@ -1,11 +1,58 @@
-body{
-    background-color: #FFFACC;
+body {
+    margin: 0;
+    background-color: #17202A;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-
-#welcomeText{
-    color: brown;
-    font-size: 50px;
+.navbar-container{
+    display: block;
+    width: 100%;
+}
+.navbar{
+    background-color: #2C3E50;
+    width: 60%;
+    height: 60px;
+    position: fixed;
+    top: 20px; left: 20%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
     text-align: center;
+}
+.navbar-items{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+.navbar-items:hover{
+    background-color: #1E2A36;
+    border-radius: 10px;
+}
+.section-introduction-container{
+    height: 100vh;
+    width: 80vw;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.introduction-container{
+    padding-top: 15%;
+    display: flex;
+    height: 60vh;
+}
+.introduction-card{
+    display: inline;
+    width: 50%;
+    height: inherit;
+}
+.introduction-card-container{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introduction-card-container .portrait{
+    background-color: #1E2A36;
+    border-radius: 50%;
 }
